@@ -1,5 +1,9 @@
 # Change
 
+## 3.2.1
+
+- feat(tdesign-react): 添加新UI组件 `@celljs/tdesign-react`，支持 TDesign React
+
 ## 3.2.0
 
 - feat(ai-ollama): 添加新组件 `@celljs/ai-ollama`，支持 Ollama 通用能力 - (部分完成)

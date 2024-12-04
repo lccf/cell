@@ -1,0 +1,9 @@
+frontend:
+    cell:
+      webpack:
+        config:
+          externals:
+            tdesign-react: tdesign-react
+        htmlWebpackTagsPlugin:
+          tdesign-react-css: "https://unpkg.com/tdesign-react@^1.10.1/dist/tdesign.${cliContext.dev ? '' : 'min.'}css"
+          tdesign-react: "https://unpkg.com/tdesign-react@^1.10.1/dist/tdesign.${cliContext.dev ? '' : 'min.'}js"

@@ -1,0 +1,5 @@
+frontend:
+    cell:
+      webpack:
+        htmlWebpackTagsPlugin:
+          tdesign-css: https://unpkg.com/tdesign-react@^1.10.1/dist/tdesign.min.css
